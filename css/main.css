@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../img/bg2.png);
+  background-color: #282353;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 100vmax;
+}
+
+.active {
+  background-color: white;
+  color: black !important;
+  font-weight: 500 !important;
+  border-radius: 0.3em;
+  margin-top: 3px !important;
+  padding: 0.3em 0.8em 0.2em 0.8em !important;
+  align-self: center;
+}
+
+.custom-nav .navbar-brand img {
+  width: 50px;
+  height: 50px;
+  margin-top: -10px;
+}
+
+.custom-nav .navbar-brand span {
+  color: white;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 1.5em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  transition: .3s color ease;
+  white-space: nowrap;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: gray;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-nav {
+    margin-top: -1em;
+  }
+}
+
+.custom-section {
+  display: flex;
+  margin-top: 8.1em;
+}
+
+.custom-section h1 {
+  font-weight: 900;
+  font-size: 5.5rem;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.custom-section p {
+  color: white;
+  font-weight: 300;
+  font-size: 1.1rem;
+  margin-top: -.1em;
+}
+
+.custom-section a {
+  margin: 1em 4em;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-color: #F04070;
+  border-radius: 2em;
+  padding: 0.4em 2em 0.3em 2em;
+}
+/*# sourceMappingURL=main.css.map */
